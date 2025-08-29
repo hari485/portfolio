@@ -1,0 +1,71 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+header h1 {
+  margin-bottom: 0.5rem;
+}
+header p {
+  margin-bottom: 1rem;
+}
+header a.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #ff9800;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+header a.btn:hover {
+  background: #e68900;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+section h2 {
+  color: #222;
+  margin-bottom: 1rem;
+}
+ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
+}
+h3, h4 {
+  margin-top: 1rem;
+  color: #444;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+  margin-top: 1rem;
+}
